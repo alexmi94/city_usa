@@ -1,0 +1,81 @@
+/*style*/
+
+html{
+    background: #000 url("../asset/globe.png")no-repeat fixed center center / cover;
+}
+
+body header{
+    text-align: center;
+    background-color: black;
+    color: #fafafa;
+    padding: 1.5rem 0;
+}
+
+figcaption button{
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+figcaption button::before{
+    content: url("../asset/like.svg");
+    display: inline-block;
+    width: 3rem;
+    vertical-align: -0.5rem;
+}
+
+
+section{
+    margin: 5rem auto;
+    max-width: 80rem;
+    border: solid .1rem rgb(175, 175, 175);
+}
+
+section figure{
+    padding: 2rem;
+    background-color: #FBFAFB;
+}
+
+section figure img{
+    display: block;
+    width: 100%;
+}
+
+section figure h2{
+    text-align: center;
+    margin: 2rem;
+}
+
+section figure figcaption p{
+    text-align: center;
+}
+
+section figure figcaption p:last-child:before{
+    content: url(../asset/like.svg);
+    display: inline-block;
+    width: 5rem;
+    margin: 0 auto;
+    vertical-align: -1rem;
+}
+
+section figure figcaption p:last-child{
+    text-align: center;
+    font-size: 3rem;
+}
+
+header h1::before{
+    content: url("../asset/city.svg");
+    display: inline-block;
+    width: 2rem;
+    filter: invert();
+    margin-right: 1rem;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer{
+    margin-bottom: 4rem;
+}
